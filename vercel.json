@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/:occasionid", "destination": "/index.html" }
+  ]
+}

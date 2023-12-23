@@ -1,0 +1,87 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cabin Grotesk', sans-serif;
+    background-color: #f7f7f7;
+}
+
+#logo-container {
+    text-align: center;
+    z-index: 2;
+}
+
+#logo {
+    max-width: 30%;
+    height: auto;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: opacity 1.6s ease-in-out;
+    opacity: 0;
+}
+
+#icon {
+    max-width: 132px;
+    max-height: 132px;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.button {
+    display: block;
+    width: auto;
+    padding: 22px;
+    margin: 0 auto;
+    margin-top: 14px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #333333;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    transition: opacity 1.6s ease-in-out;
+    opacity: 0;
+}
+
+@media (max-width: 768px) {
+    .container, #logo {
+        width: 90%;
+    }
+ #icon {
+        max-width: 116px;
+        max-height: 116px;
+    }
+}
