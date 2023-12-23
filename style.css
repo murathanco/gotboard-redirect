@@ -34,7 +34,6 @@ body, html {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    transition: opacity 2.6s ease-in-out;
     opacity: 0;
 }
 
@@ -72,7 +71,6 @@ footer {
     bottom: 10px;
     text-align: center;
     width: 100%;
-    transition: opacity 1.6s ease-in-out;
     opacity: 0;
 }
 
