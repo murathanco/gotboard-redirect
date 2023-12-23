@@ -30,7 +30,7 @@ function transitionContent() {
         document.getElementById('icon').style.display = 'block';
         document.getElementById('logo-text').style.display = 'block';
         document.querySelector('.button').style.display = 'block';
-    }, 2100);
+    }, 1900);
 }
 
 window.onload = function() {
